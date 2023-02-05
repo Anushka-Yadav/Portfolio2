@@ -11,35 +11,35 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Weather on Web",
+      description: "Web Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Restaurant Website",
+      description: "Web Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Portfolio",
+      description: "Web Development",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Weather on Web",
+      description: "Web Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Restaurant Website",
+      description: "Web Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Portfolio",
+      description: "Web Development",
       imgUrl: projImg3,
-    },
+    }
   ];
 
   return (
@@ -51,7 +51,9 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Recently, I had made projects on Web Development mostly. 
+                  But, ahead am proceeding toward programming and connecting databases and building backend.
+                </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -80,10 +82,15 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p> ✔️I enjoy challenges that enable me to grow. I like to relate everything in this field with our day-to-day examples.
+                          ✔️Have Explored various parts of country, meet lots of people , so am able to adapt any kind of Surroundings and Circumstances.
+                          ✔️Always ready to push up my potential and test myself.</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                      <p>I am always ready to have new /experiences, meet new people and learn new things. I always find the idea of impacting the world through my works.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Interested in DSA and its amzing to learn about its applications in today's world where data is increasing day by day and managing it is a primarily big task.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

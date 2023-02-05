@@ -35,23 +35,34 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Interested in DSA and its amzing to learn about its applications in today's world where data is increasing day by day and managing it is a primarily big task.day by day and managing it is a primarily big task.A member of @codebooter community and giving able contribution in that.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
+                              
                                 <img src={meter1} alt="Image" />
                                 <h5>Web Development</h5>
+                            </div>
+                            <div className="item">
+                              
+                                <img src={meter1} alt="Image" />
+                                <h5>Logo Designing</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>sQL</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Data Analysis</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={meter2} alt="Image" />
+                                <h5>java</h5>
                             </div>
                             <div className="item">
+                              
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Python</h5>
                             </div>
                         </Carousel>
                     </div>
